@@ -63,7 +63,7 @@ daysInput.addEventListener('keyup', function(event) {
 
 var form = document.getElementById('form');
 form.addEventListener('submit', function(event) {
-    event.preventDefault();
+    // event.preventDefault();
     if (validateForm() !== false && selectHotelPricing() !== false) {
         document.getElementById('hotel_booked').innerHTML = "Your booking was successful, see you soon!"; 
         document.getElementById('hotel_booked2').innerHTML = "";
