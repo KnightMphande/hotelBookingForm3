@@ -11,3 +11,8 @@
     -webkit-flex-flox: row wrap;
     flex-flow: row wrap;
 }
+
+.h1 {
+    font-size:80px;
+    color: white;
+}
