@@ -1,0 +1,13 @@
+.col-lg-6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 100px;
+    color: black;
+    flex-flow: row wrap;
+    -webkit-box-orient: horizontal; 
+    -webkit-box-direction: normal;
+    -webkit-flex-flox: row wrap;
+    flex-flow: row wrap;
+}
